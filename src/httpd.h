@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#include "mongoose.h"
+#include <mongoose.h>
 
 struct httpd_ops {
     void (*accept)(void* user_data, struct mg_connection* nc);

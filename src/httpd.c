@@ -4,7 +4,6 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-#include "mongoose.h"
 #include "httpd.h"
 
 static struct httpd_ops _ops;
